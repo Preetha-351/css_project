@@ -1,0 +1,36 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+ .main{
+    background-color: rgb(185, 180, 172);
+    height: 110px;
+    width:100%;
+    
+
+}
+.main a{
+float:right;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    margin: 8px;
+    color:rgb(15, 15, 15);
+    padding: 8px;
+}
+body{
+    background-color: white;
+}
+
+h1{
+    color: rgb(10, 10, 10);
+}
+.para1{
+    font-style: italic;
+    font-size: larger;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    position: absolute;
+    left: 20%;
+}

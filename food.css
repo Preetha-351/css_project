@@ -1,0 +1,66 @@
+img{
+    height: 200px;
+    width:200px;
+    display: block;
+}
+    img:hover{
+    animation: rotate 4s  alternate;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(80deg);
+    }
+    to{
+        transform: rotate(150deg);
+    }
+}
+h1{
+    color: rgb(14, 13, 14);
+    animation: scale 3s infinite alternate;
+}
+@keyframes scale{
+    from{
+        transform: scale(0deg);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
+body{
+    background-color:white;
+}
+h2{
+    color: rgb(15, 15, 15);
+}
+.main a{
+    text-decoration: none;
+    font-size: large;
+    float: right;
+     margin: 10px;
+    padding:10px;
+    color: rgb(22, 22, 22);
+   
+}
+.main{
+background-color:rgb(185, 180, 172);
+width: 100%;
+height: 110px;
+}
+p.para1{
+    font-style: italic;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    position: absolute;
+    display: inline-block;
+    left: 20%;
+    font-size: larger;
+}
+p.para2{
+    font-style: italic;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    position: absolute;
+    display: inline-block;
+    left: 20%;
+     font-size: larger;
+}

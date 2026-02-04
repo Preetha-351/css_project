@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+     <div class="main">
+        <h2>Plotlist</h2>
+         <a href="contact.html">Contactus</a>
+         <a href="list.html">Listing</a>
+         <a href="categ.html">Category</a>
+         <a href="Template.html">Home</a>
+        
+    </div><hr>
+   <p> CHECK OUR LISTINGS</p>
+    <h1>Item listings of Different Categories</h1><br>
+<div class="flex">
+  <div class="block">
+    <img src="house.svg" alt="">
+   <button onclick="core('Appartment')" class="btn">Appartment</button>
+</div>
+<div class="block">
+    <img src="food.svg" alt="">
+    <button onclick="core('Food&life')" class="btn">Food&life</button>
+</div>
+ <div class="block">
+    <img src="car.svg" alt="">
+    <button onclick="core('Car')" class="btn">Car</button>
+</div>
+ <div class="block">
+    <img src="shop.svg" alt="">
+   <button onclick="core('Shopping')" class="btn">Shopping</button>
+</div>
+ <div class="block">
+    <img src="travel.svg" alt="">
+    <button onclick="core('Traveling')" class="btn">Traveling</button>
+</div>
+<div id="Appartment">
+<div class="btn">
+    <div class="fun">
+<img src="app1.jpg" alt=""></div>
+<div class="app"><h2>Sunshine Paradise Appartment</h2>
+<p>Details:860 sqft</p>
+<h6>2 Bedrooms</h6>
+<h6>3 Bathrooms</h6>
+</div>
+</div>
+<div class="btn">
+    <div class="fun1">
+<img src="modern.jpg" alt=""></div>
+<div class="app1"><h2>Modern  Appartment</h2>
+<p>Details:1160 sqft</p>
+<h6>2 Bedrooms</h6>
+<h6>3 Bathrooms</h6>
+</div>
+</div>
+<div class="btn">
+    <div class="fun2">
+<img src="luxury.jpg" alt=""></div>
+<div class="app2"><h2>Luxury Appartment</h2>
+<p>Details:2160 sqft</p>
+<h6>3 Bedrooms</h6>
+<h6>4 Bathrooms</h6>
+</div>
+</div>
+</div>
+<div id="Food&life" class="ref" >
+<div class="btn">
+    <div class="funs">
+<img src="veg-soups.jpg" alt=""></div>
+<div class="apps"><h2 class="wave-text"><span>Soups</span></h2>
+<p>vegsoups Available</p>
+<h6>1 Cup</h6>
+<h6>50</h6>
+</div>
+</div>
+<div class="btn">
+    <div class="funs1">
+<img src="vege1.jpg" alt=""></div>
+<div class="apps1"><h2>Vegetarian</h2>
+<p>VegetarianFoodsAvailable</p>
+<h6>MealsWithChapathi</h6>
+<h6>300</h6>
+</div>
+</div>
+<div class="btn">
+    <div class="funs2">
+<img src="nonvege.jpg" alt=""></div>
+<div class="apps2"><h2>Non-Vegetarian</h2>
+<p>Non-VegetarianFoodsAvailable</p>
+<h6>FullMeals</h6>
+<h6>500</h6>
+</div>
+</div>
+</div>
+<div id="Car" class="ref" >
+<div class="btn">
+    <div class="function">
+<img src="innova.jpg" alt=""></div>
+<div class="application"><h2>Innova </h2>
+<p>Innova is a versatile multi-purpose vehicle</p>
+<h6>Top ModelPrice:25.67 lakhs</h6>
+<h6>Starting aprice 18.91 Lakhs</h6>
+</div>
+</div>
+<div class="btn">
+    <div class="function1">
+<img src="xuv300.jpg" alt=""></div>
+<div class="application1"><h2>XUV 360</h2>
+<p> </p>
+<h6>Top ModelPrice:20 Lakhs</h6>
+<h6>Starting aprice 15 Lakhs</h6>
+</div>
+</div>
+<div class="btn">
+    <div class="function2">
+<img src="bmw.jpg" alt=""></div>
+<div class="application2"><h2>BMW</h2>
+<p>Non-VegetarianFoodsAvailable</p>
+<h6>Top ModelPrice:50 Lakhs</h6>
+<h6>Starting aprice 35 Lakhs</h6>
+</div>
+</div>
+</div>
+<div id="Shopping" class="ref" >
+<div class="btn">
+    <div class="shop">
+<img src="shops.jpeg" alt=""></div>
+<div class="shopping"><h2>Groceries&Fruits</h2>
+<p>Groceries</p>
+
+</div>
+</div>
+</div>
+
+<div id="Traveling" class="ref" >
+<div class="btn">
+    <div class="shop">
+<img src="traveling.jpg" alt=""></div>
+<div class="shopping"><h2>Traveling is a transformative experience </h2>
+<p></p>
+
+</div>
+</div>
+</div>
+
+
+</div>
+</body>
+<script>
+        function core(tab){
+            document.getElementById('Appartment').style.display="none";
+            document.querySelectorAll(".ref").forEach(el=>el.style.display="none");
+            document.getElementById(tab).style.display="block";
+
+        }
+     </script>
+</html>

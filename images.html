@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: xx-large !important;
+            font-size: smaller ;
+        }
+        img{
+            opacity: 0.4;
+            filter: brightness(2) contrast(30) grayscale(45);
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            margin: 20px;
+        }
+        .box2{
+            width: 10%;
+            height: 10%;
+            background-color: yellow;
+            margin: 20px;
+        }
+        .box3{
+            width: 30vw;
+            height: 30vh;
+            background-color: yellow;
+            margin: 20px;
+        }
+        .box4{
+            width: 20rem;
+            height: 10rem;
+            background-color: yellow;
+            margin: 20px;
+        }
+        .box5{
+            width: 20em;
+            height: 10em;
+            background-color: yellow;
+            margin: 20px;
+        }
+        .p{
+            font-size: large;
+        }
+        .mask{
+            -webkit-mask-image:url('../star.png');
+            mask-image: url('../star.png');
+            mask-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, possimus. Aspernatur iusto assumenda recusandae animi qui temporibus, perferendis commodi reiciendis harum? Eos nobis, doloribus nam corrupti cumque qui! Aspernatur, incidunt?</p>
+    </div>
+    <p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam obcaecati quos error voluptatem praesentium adipisci consequatur, quaerat illo deserunt veniam minus repellendus incidunt eveniet temporibus molestias neque fuga doloremque est?</p>
+    <img src="image.jpg" alt="" width="200px" height="200px"> 
+    <div class="box1">hello</div>
+     <div class="box2">hello</div>
+      <div class="box3">hello</div>
+       <div class="box4">hello</div>
+        <div class="box5">hello</div>
+        <img src="app1.jpg" alt="" class="mask" width="200px" height="200px">
+</body>
+</html>

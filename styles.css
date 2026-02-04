@@ -1,0 +1,259 @@
+body{
+    background-color:rgb(245, 243, 241);
+
+   
+}
+.main{
+    background-color: rgb(185, 180, 172);
+    height: 90px;
+    width:100%;
+    
+
+}
+.main a{
+float:right;
+
+
+}
+.main a:hover{
+    color: lightcyan;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    margin: 10px;
+    color:rgb(15, 15, 15);
+    padding:10px ;
+
+}
+h2{
+    margin:10px;
+    padding: 5px;
+    float: left;
+}
+/* .back img{
+    opacity: blur(0.4);
+    position: fixed;
+} */
+select,option{
+    margin: 10px;
+    padding: 15px 10px;
+}
+
+input{
+     margin: 10px;
+    padding: 15px 10px;
+
+    
+}
+/* .menu a {
+    
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    float: left;
+    color:rgb(15, 15, 15);
+} */
+
+#sear{
+    background-color:rgb(213, 216, 218);
+}
+*{
+    outline: none;
+    border-radius: 15px;
+    
+}
+  /* .menu {
+    height: 100px;
+    width:100%;
+    color: aliceblue;
+    background-color: white;
+
+  
+}
+.menu img:hover{
+    background-color: lightgray;
+}
+.menu img{
+    height: 50%;
+    width: 75px;
+    float: left;
+    display: flex;
+    
+    
+} */
+
+  .menu{
+    display: flex;
+    position: relative;
+    left: 20%;
+    /* background-color: rgb(250, 248, 246); */
+  }  
+  
+  img.block {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    
+
+  }
+  a.block{
+    display:inline;
+    color: black;
+    position: relative;
+    left: 50px;
+    top: 50px;
+ 
+  }
+   a.block:hover{
+    color: lightslategrey;
+  }
+   img.block:hover{
+    background-color: rgb(233, 237, 238);
+  }
+  .container{
+    background-color: grey;
+    height: 650px;
+    width: 95%;
+    
+   
+}
+/* .sub button{
+    text-decoration: none;
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    border-radius: 15px;
+    border-left: 20px;
+    
+
+} */
+/* .sub{
+    background-color:rgb(190, 188, 184);
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    bottom: 300px;    
+    overflow: hidden;
+    
+    
+    
+} */
+ .sub button{
+    height: 100px;
+    width: 250px;
+    display: block;
+    padding: 10px;
+    margin: 30px;
+    background-color: rgb(146, 145, 145);
+    font-size: larger;
+
+ 
+
+ }
+.btn {
+      width:65%;
+      height: 40%;
+      margin: 10px;
+     
+      font-size: larger;
+ }
+.sub button:hover{
+   background-color: lightgray;
+}
+.ref1{
+    background-color: rgb(146, 145, 145);
+   
+   width:45%;
+   height: 45%;
+    margin: 10px; 
+    position: relative;
+    top: 100%;
+    left:25%;
+    text-align: center;
+    overflow: hidden;
+}
+.ref{
+    background-color: rgb(146, 145, 145);
+    display:none;
+   width:40%;
+   height: 40%;
+    margin: 10px; 
+    position: absolute;
+    top:90%;
+    left:25%;
+    text-align: center;
+    overflow: hidden;
+}
+h1{
+    animation: scale 5s ;
+    
+
+}
+@keyframes scale{
+    from{
+        color: black;
+        transform: scale(0);
+       
+    }
+    to{
+        color: darkolivegreen;
+        transform: scaleZ(-0.5);
+    }
+}
+    
+ .image img{
+  
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    height: 50%;
+    width: 30%;
+
+ }
+ 
+ #Appartment{
+    position:absolute;
+    top: 85%;
+    width:40%;
+    height: 35%;
+    left: 25%;
+
+ }
+ #Appartment h2,p{
+   
+      width:85%;
+      height: 40%;
+      margin: 10px;
+     
+   
+ }
+ /* .img1{
+    display: inline-block;
+    position:absolute;
+    top: 85%;
+    left:70%;
+    height:50%;
+    width: 20%;
+   
+ }
+  */
+
+
+    
+   
+    
+    
+
+    
+
+
+
+
+
